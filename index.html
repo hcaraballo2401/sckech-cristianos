@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+     <!-- style -->
+     <link rel="stylesheet" href="style.css">
+     
+    <!-- iconos -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Hello, world!</title>
+   
+  </head>
+  <body class="bg-dark ">
+    <header class="main-header fixed-top">
+      <div class="container bo border-dark ">
+        <div class="row d-flex h-100 ">
+        
+          <div class=" card text-center col-md-12 bg-dark">
+            <div class="card-body" style="color: white;">
+              <h1>Sketches Cristianos</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+      <section class="py-5 w-4">
+          <div class="container  ">
+            <div class="row " id="row">
+              <div class="col-md-3 mb-2">
+                <div class="card text-center border-dark bg-dark text-center">
+                    <!-- <i class="fas fa-check-circle" style="color:white; margin: 5px;" ></i> -->
+                    <img src="iconos/check-circle-solid.svg" id="img"class=" rounded-circle  img-responsive center-block" alt="bien">
+                  <div class="card-body" style="color: white;">
+                    
+                   <h3>el inicio</h3>
+                    <p>
+                      Dios entra en la oscuridad, dejar hasta el final! 
+                    </p>
+
+                    <button onclick="play()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio" class="m-auto">
+                        <source type="audio/wav" src="audios/1-2.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark text-center bg-dark">
+                    <img src="iconos/battle-net-brands.svg"  class=" rounded-circle w-40 img-responsive center-block" alt="bien">
+                  <div class="card-body">
+                    <h3>Creacion</h3>
+                    <p>
+                      Sonido de luz (tiene 2 segundos de retraso)
+                    </p>
+                    <button onclick="play1()" class=" btn btn-lg btn-outline-danger">
+                        <audio id="audio1" class="m-auto">
+                        <source type="audio/wav" src="audios/3.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white text-center border-dark bg-dark">
+                    <img src="iconos/umbrella-beach-solid.svg"  class=" rounded-circle w-40 img-responsive center-block" alt="bien">
+                  <div class="card-body">
+                    <h3>creacion</h3>
+                    <p>
+                      sonido de playa (arenita playita) 
+                    </p>
+                    <button onclick="play2()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio2" class="m-auto">
+                        <source type="audio/wav" src="audios/4.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                      
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark text-center bg-dark">
+                    <img src="iconos/creative-commons-by-brands.svg"  class=" rounded-circle w-40 img-responsive center-block" alt="bien">
+                  <div class="card-body">
+                    <h3>taran</h3>
+                    <p>
+                      Se crea a Adan 
+                    </p>
+                    <button onclick="play3()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio3" class="m-auto">
+                        <source type="audio/wav" src="audios/5.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/surprise-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" alt="bien">
+                  <div class="card-body">
+                    <h3>Sorpresa</h3>
+                    <p>
+                      le dicen que lo van a golpear y romper una costilla 
+                    </p>
+                    <button onclick="play4()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio4" class="m-auto">
+                        <source type="audio/wav" src="audios/6.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/dove-solid.svg"  class=" rounded-circle w-40 img-responsive center-block" alt="bien">
+                  <div class="card-body">
+                    <h3>Tonto</h3>
+                    <p>
+                     Adan queda como tonto 
+                    </p>
+                    <button onclick="play5()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio5" class="m-auto">
+                        <source type="audio/wav" src="audios/7-8.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/hand-rock-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" alt="bien">
+                  <div class="card-body">
+                    <h3>Golpean a Adan</h3>
+                    <p>
+                      le sacan la costilla
+                    </p>
+                    <button onclick="play6()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio6" class="m-auto">
+                        <source type="audio/wav" src="audios/9-10-6.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>   
+              <div class="col-md-3 mb-2">
+                  <div class="card text-white border-dark bg-dark text-center">
+                      <img src="iconos/hand-rock-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                    <div class="card-body">
+                      <h3>Golpe</h3>
+                      <p>
+                        Dios le da un golpe para que vuelva a la normalida
+                      </p>
+                      <button onclick="play7()" class=" btn btn-lg btn-outline-danger">
+                        <audio id="audio7" class="m-auto">
+                          <source type="audio/wav" src="audios/11.mp3">
+                        </audio>
+                        reproducir
+                      </button>
+                    </div>
+                  </div>
+              </div>           
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/hand-paper-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Dos Golpes</h3>
+                    <p>
+                      Dios le da dos golpe para que vuelva a la normalida
+                    </p>
+                    <button onclick="play8()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio8" class="m-auto">
+                        <source type="audio/wav" src="audios/11x2.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/grin-hearts-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Romantico</h3>
+                    <p>
+                      Adan ve a eva y se enamora
+                    </p>
+                    <button onclick="play9()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio9" class="m-auto">
+                        <source type="audio/wav" src="audios/12-2.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white bg-dark border-dark text-center">
+                    <img src="iconos/flushed-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Panico</h3>
+                    <p>
+                      Cuando ven que no tienen nada en las manos
+                    </p>
+                    <button onclick="play10()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio10" class="m-auto">
+                        <source type="audio/wav" src="audios/13.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/praying-hands-solid.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Entrada/Salida</h3>
+                    <p>
+                      Arpas
+                    </p>
+                    <button onclick="play11()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio11" class="m-auto">
+                        <source type="audio/wav" src="audios/14.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/kiss-wink-heart-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Picaro</h3>
+                    <p>
+                      adan mira a eva picaramente
+                    </p>
+                    <button onclick="play12()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio12" class="m-auto">
+                        <source type="audio/wav" src="audios/15.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-md-3 mb-2">
+                <div class="card  border-dark text-white bg-dark text-center">
+                    <img src="iconos/lemon-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Coco</h3>
+                    <p>
+                      Musica de aguita de coco
+                    </p>
+                    <button onclick="play13()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio13" class="m-auto">
+                        <source type="audio/wav" src="audios/17.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/dragon-solid.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Serpiente</h3>
+                    <p>
+                      Entra Andrea
+                    </p>
+                    <button onclick="play14()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio14" class="m-auto">
+                        <source type="audio/wav" src="audios/18.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>  
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/grin-beam-sweat-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>eva se come el coco</h3>
+                    <p>
+                      cuando andrea le dice que se lo va a decir si se lo come
+                    </p>
+                    <button onclick="play15()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio15" class="m-auto">
+                        <source type="audio/wav" src="audios/19.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                  <img src="iconos/flushed-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>trueno</h3>
+                    <p>
+                     Dios entra molesto porque lo han desobedecido
+                    </p>
+                    <button onclick="play16()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio16" class="m-auto">
+                        <source type="audio/wav" src="audios/20-21.mp3">
+                      </audio>
+                    reproducir
+                    </button>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-md-3 mb-2">
+                <div class="card  border-dark text-white bg-dark text-center">
+                  <img src="iconos/kiss-wink-heart-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>besos romanticosos</h3>
+                    <p>
+                      adan y eva se besan detras de una cortina
+                    </p>
+                    <button onclick="play17()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio17" class="m-auto">
+                        <source type="audio/wav" src="audios/15.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/microphone-alt-solid.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>operadora</h3>
+                    <p>
+                      Adan le pide ayuda a Dios desesperado 
+                    </p>
+                    <button onclick="play18()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio18" class="m-auto">
+                        <source type="audio/wav" src="audios/21.2 OPERADORA.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/dizzy-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Adan se desmaya</h3>
+                    <p>
+                      cuando eva ya esta apunto de dar a luz
+                    </p>
+                    <button onclick="play19()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio19" class="m-auto">
+                        <source type="audio/wav" src="audios/22.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/flushed-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                    
+                    <div class="card-body">
+                    <h3>Nace caín</h3>
+                    <p>
+                      Cuando eva se pone en la cortina para que salga el niño
+                    </p>
+                    <button onclick="play20()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio20" class="m-auto">
+                        <source type="audio/wav" src="audios/23.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>  
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/dizzy-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Dios aparece</h3>
+                    <p>
+                      cuando se da cuenta que nacio un niño (cortar a los pocos segundos)
+                    </p>
+                    <button onclick="play21()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio21" class="m-auto">
+                        <source type="audio/wav" src="audios/1-2.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card  border-dark text-white bg-dark text-center">
+                    <img src="iconos/kiss-wink-heart-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Dios se va </h3>
+                    <p>
+                      despues de darle sus consejos de familia
+                    </p>
+                    <button onclick="play22()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio22" class="m-auto">
+                        <source type="audio/wav" src="audios/14.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/microphone-alt-solid.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Eva roncando</h3>
+                    <p>
+                      despues que adan ve sus deberes 
+                    </p>
+                    <button onclick="play23()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio23" class="m-auto">
+                        <source type="audio/wav" src="audios/25.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/flushed-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                    
+                    <div class="card-body">
+                    <h3>Dios cumple con lo que pide adan</h3>
+                    <p>
+                      Dios habla a un lado del escenario
+                    </p>
+                    <button onclick="play24()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio24" class="m-auto">
+                        <source type="audio/wav" src="audios/26-27.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>  
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/dizzy-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>Dios entra</h3>
+                    <p>
+                      y cambia a adan de cuerpo de nuevo
+                    </p>
+                    <button onclick="play25()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio25" class="m-auto">
+                        <source type="audio/wav" src="audios/14.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card  border-dark text-white bg-dark text-center">
+                    <img src="iconos/kiss-wink-heart-regular.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>finaliza la obra</h3>
+                    <p>
+                      todos se despiden y salen del escenario
+                    </p>
+                    <button onclick="play26()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio26" class="m-auto">
+                        <source type="audio/wav" src="audios/28 FINAL.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-2">
+                <div class="card text-white border-dark bg-dark text-center">
+                    <img src="iconos/microphone-alt-solid.svg"  class=" rounded-circle w-40 img-responsive center-block" id="colorh" alt="bien">
+                  <div class="card-body">
+                    <h3>risas</h3>
+                    <p>
+                      para los momentos graciosos 
+                    </p>
+                    <button onclick="play27()" class=" btn btn-lg btn-outline-danger">
+                      <audio id="audio27" class="m-auto">
+                        <source type="audio/wav" src="audios/RISA 1.mp3">
+                      </audio>
+                      reproducir
+                    </button>
+                  </div>
+                </div>
+              </div>  
+                                              
+            </div>
+          </div>
+        </section>
+      
+    </div>
+
+    <!-- script -->
+    <script src="prot.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
